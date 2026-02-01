@@ -66,7 +66,7 @@ const Equipment = () => {
             <div className="mb-8 space-y-4">
                 {/* Search */}
                 <div className="relative max-w-md">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" />
+                    {/* <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" /> */}
                     <input
                         type="text"
                         value={search}

@@ -68,7 +68,7 @@ const Register = () => {
                                 ชื่อ
                             </label>
                             <div className="relative">
-                                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" />
+                                {/* <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" /> */}
                                 <input
                                     type="text"
                                     value={name}
@@ -85,7 +85,7 @@ const Register = () => {
                                 อีเมล
                             </label>
                             <div className="relative">
-                                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" />
+                                {/* <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" /> */}
                                 <input
                                     type="email"
                                     value={email}
@@ -102,7 +102,7 @@ const Register = () => {
                                 รหัสผ่าน
                             </label>
                             <div className="relative">
-                                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" />
+                                {/* <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" /> */}
                                 <input
                                     type={showPassword ? 'text' : 'password'}
                                     value={password}
@@ -126,7 +126,7 @@ const Register = () => {
                                 ยืนยันรหัสผ่าน
                             </label>
                             <div className="relative">
-                                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" />
+                                {/* <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-light-muted" /> */}
                                 <input
                                     type={showPassword ? 'text' : 'password'}
                                     value={confirmPassword}
